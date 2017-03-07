@@ -1,16 +1,14 @@
 <h1>3D FlipBook</h1>
 
 <p>
-  <a href="http://3dflipbook.iberezansky.net/">3D FlipBook</a> is WordPress plugin that allows to browse images, PDFs or HTMLs as a flipping book.
+  <a href="http://3dflipbook.iberezansky.net/">3D FlipBook</a> is jQuery plugin that allows to browse images, PDFs or HTMLs as a flipping book.
   It can be used for demonstration magazines, books, cards, brochures, booklets and much more in natural way.
   It helps to attract user attention and make more impression on him.
 </p>
 
-<div class="center">
-  <p>
-    Start from <a href="http://3dflipbook.iberezansky.net/">live demo</a>.
-  </p>
-</div>
+<p>
+  Start from <a href="http://3dflipbook.iberezansky.net/">live demo</a>.
+</p>
 
 <h2>Main features</h2>
 
