@@ -203,7 +203,7 @@ Enter the 3d-flip-book-jquery directory and run the installation:
 cd jquery && npm install
 ```
 
-When the installation finished to run development server:
+When the installation finished to run <a href="http://localhost:8080/">development server</a>:
 ```bash
 npm run dev
 ```
