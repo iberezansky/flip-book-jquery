@@ -1,0 +1,50 @@
+{
+  "name": "3d-flip-book",
+  "version": "1.4.0",
+  "description": "3D FlipBook allows to browse images, PDFs or HTMLs as a flipping book. It helps to attract user attention and make more impression on him.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env.debug --port 8080 --inline --hot",
+    "build-debug": "webpack --env.debug",
+    "build-production": "webpack --display-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iberezansky/3d-flip-book-jquery.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "flipbook",
+    "flip book",
+    "pdf flipbook",
+    "pdf to flip book",
+    "flip gallery",
+    "magazine",
+    "mobile flipbook",
+    "page flip",
+    "page turn",
+    "pageflip"
+  ],
+  "author": "iberezansky",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "html2canvas": "^0.5.0-beta4",
+    "imports-loader": "^0.6.5",
+    "jquery": "^3.1.1",
+    "raw-loader": "^0.5.1",
+    "three": "^0.81.2",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  },
+  "bugs": {
+    "url": "https://github.com/iberezansky/3d-flip-book-jquery/issues"
+  },
+  "homepage": "https://github.com/iberezansky/3d-flip-book-jquery#readme"
+}
