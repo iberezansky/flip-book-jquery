@@ -1,17 +1,16 @@
 {
-  "name": "3d-flip-book",
-  "version": "1.4.0",
+  "name": "flip-book",
+  "version": "1.4.3",
   "description": "3D FlipBook allows to browse images, PDFs or HTMLs as a flipping book. It helps to attract user attention and make more impression on him.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --env.debug --port 8080 --inline --hot",
     "build-debug": "webpack --env.debug",
     "build-production": "webpack --display-modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iberezansky/3d-flip-book-jquery.git"
+    "url": "git+https://github.com/iberezansky/flip-book-jquery.git"
   },
   "keywords": [
     "jquery-plugin",
@@ -40,11 +39,10 @@
     "jquery": "^3.1.1",
     "raw-loader": "^0.5.1",
     "three": "^0.81.2",
-    "webpack": "^2.1.0-beta.27",
-    "webpack-dev-server": "^2.1.0-beta.12"
+    "webpack": "^2.1.0-beta.27"
   },
   "bugs": {
-    "url": "https://github.com/iberezansky/3d-flip-book-jquery/issues"
+    "url": "https://github.com/iberezansky/flip-book-jquery/issues"
   },
-  "homepage": "https://github.com/iberezansky/3d-flip-book-jquery#readme"
+  "homepage": "https://github.com/iberezansky/flip-book-jquery#readme"
 }

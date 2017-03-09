@@ -191,32 +191,9 @@
 
 <h2>How to use</h2>
 
-Clone a copy of the main git repo by running:
+Install the flip-book package:
 ```bash
-git clone https://github.com/iberezansky/3d-flip-book-jquery.git
+npm install --save flip-book
 ```
 
-Enter the 3d-flip-book-jquery directory and run the installation:
-```bash
-cd jquery && npm install
-```
-
-When the installation finished to run <a href="http://localhost:8080/">development server</a>:
-```bash
-npm run dev
-```
-
-To build debug version:
-
-```bash
-npm run build-debug
-```
-
-To build production version:
-```bash
-npm run build-production
-```
-
-<p>
-  For details see <a href="http://3dflipbook.iberezansky.net/documentation">the documentation</a>.
-</p>
+See <a href="https://github.com/iberezansky/flip-book-jquery-example">the example</a>.
