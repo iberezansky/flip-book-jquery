@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  Start from <a href="http://3dflipbook.iberezansky.net/">live demo</a>.
+  Start from <a href="http://3dflipbook.iberezansky.net/">the live preview</a>.
 </p>
 
 <h2>Main features</h2>
