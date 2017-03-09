@@ -35,10 +35,10 @@ module.exports = function(env) {
   return {
     context: __dirname,
     devtool: debug ? 'inline-sourcemap' : '',
-    entry: ['./flip-book.js'],
+    entry: ['./index.js'],
     output: {
       path: __dirname,
-      filename: 'flip-book-bundle.js'
+      filename: './dist/'+(debug ? 'flip-book.js': 'flip-book.min.js')
     },
     module: {
       loaders: [

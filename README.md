@@ -192,3 +192,26 @@
 <h2>How to use</h2>
 
 See <a href="https://github.com/iberezansky/flip-book-jquery-example">the example</a>.
+
+<h2>Rebuilding</h2>
+
+Clone a copy of the main git repo by running:
+```bash
+git clone https://github.com/iberezansky/flip-book-jquery.git
+```
+
+Enter the flip-book-jquery-example directory and run the installation:
+```bash
+cd flip-book-jquery && npm install
+```
+
+To build debug version:
+
+```bash
+npm run build-debug
+```
+
+To build production version:
+```bash
+npm run build-production
+```
