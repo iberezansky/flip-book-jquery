@@ -1,4 +1,4 @@
-<h1>3D FlipBook</h1>
+<h1>3D FlipBook jQuery plugin</h1>
 
 <p>
   <a href="http://3dflipbook.iberezansky.net/">3D FlipBook</a> is jQuery plugin that allows to browse images, PDFs or HTMLs as a flipping book.
