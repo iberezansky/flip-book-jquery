@@ -191,9 +191,4 @@
 
 <h2>How to use</h2>
 
-Install the flip-book package:
-```bash
-npm install --save flip-book
-```
-
 See <a href="https://github.com/iberezansky/flip-book-jquery-example">the example</a>.
