@@ -6,11 +6,30 @@
   It helps to attract user attention and make more impression on him.
 </p>
 
+[![3D FlipBook Demonstration](https://img.youtube.com/vi/meZCnPF5IdQ/0.jpg)](https://www.youtube.com/watch?v=meZCnPF5IdQ)
+
 <p>
   Start from <a href="http://3dflipbook.net/">the live preview</a>.
 </p>
 
 <h2>Main features</h2>
+
+<h3>Version 1.7</h3>
+<ul>
+  <li>RTL mode</li>
+  <li>Default template option in General Settings</li>
+</ul>
+
+<h3>Version 1.6</h3>
+<ul>
+  <li>CSS Layers</li>
+  <li>Languages</li>
+</ul>
+
+<h3>Version 1.5</h3>
+<ul>
+  <li>PDF search</li>
+</ul>
 
 <h3>Version 1.4</h3>
 <ul>
