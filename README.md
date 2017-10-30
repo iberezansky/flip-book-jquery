@@ -6,7 +6,9 @@
   It helps to attract user attention and make more impression on him.
 </p>
 
-[![3D FlipBook Demonstration](https://img.youtube.com/vi/meZCnPF5IdQ/0.jpg)](https://www.youtube.com/watch?v=meZCnPF5IdQ)
+<div align="center">
+  [![3D FlipBook Demonstration](https://img.youtube.com/vi/meZCnPF5IdQ/0.jpg)](https://www.youtube.com/watch?v=meZCnPF5IdQ)
+</div>
 
 <p>
   Start from <a href="http://3dflipbook.net/">the live preview</a>.
