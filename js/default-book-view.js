@@ -1,4 +1,4 @@
-var init = function(container) {
+function init(container) {
   var instance;
   if(window.jQuery) {
     var $ = window.jQuery;
@@ -13,13 +13,13 @@ var init = function(container) {
           }
           var menu = el.find('.menu');
           if(menu.hasClass('hidden')) {
-            container.find('.fb3d .fnavbar .menu').addClass('hidden');
+            container.find('.ctrl .fnavbar .menu').addClass('hidden');
             menu.removeClass('hidden');
             e.stopPropagation();
           }
         },
         hideDropMenu: function() {
-          container.find('.fb3d .fnavbar .menu').addClass('hidden');
+          container.find('.ctrl .fnavbar .menu').addClass('hidden');
         },
         pickFloatWnd: function(e) {
           if(instance.pos) {
@@ -50,23 +50,41 @@ var init = function(container) {
         },
         dropFloatWnd: function() {
           delete instance.pos;
+        },
+        jsCenter: function() {
+          var ns = container.find('.js-center');
+          for(var i=0; i<ns.length; ++i) {
+            var n = $(ns[i]), parentWidth = $(ns[i].parentNode).width(), width = n.width();
+            n.css('left', 0.5*(parentWidth-width)+'px');
+          }
         }
       },
+      appLoaded: function() {
+        instance.binds.jsCenter();
+      },
+      linkLoaded: function(link) {
+        instance.binds.jsCenter();
+      },
       dispose: function() {
-        container.find('.fb3d .fnavbar .fnav .toggle').off('click', instance.binds.showDropMenu);
+        container.find('.ctrl .fnavbar .fnav .toggle').off('click', instance.binds.showDropMenu);
         $(container[0].ownerDocument).off('click', instance.binds.hideDropMenu);
 
         $(container[0].ownerDocument).off('mousemove', instance.binds.moveFloatWnd);
         $(container[0].ownerDocument).off('mouseup', instance.binds.dropFloatWnd);
         instance.floatWnd.find('.header').off('mousedown', instance.binds.pickFloatWnd);
+
+        $(container[0].ownerDocument.defaultView).off('resize', instance.binds.jsCenter);
       }
     };
-    container.find('.fb3d .fnavbar .fnav .toggle').on('click', instance.binds.showDropMenu);
+    container.find('.ctrl .fnavbar .fnav .toggle').on('click', instance.binds.showDropMenu);
     $(container[0].ownerDocument).on('click', instance.binds.hideDropMenu);
 
     $(container[0].ownerDocument).on('mousemove', instance.binds.moveFloatWnd);
     $(container[0].ownerDocument).on('mouseup', instance.binds.dropFloatWnd);
     instance.floatWnd.find('.header').on('mousedown', instance.binds.pickFloatWnd);
+
+    $(container[0].ownerDocument.defaultView).on('resize', instance.binds.jsCenter);
+    instance.binds.jsCenter();
   }
   else {
     instance = {
@@ -76,4 +94,4 @@ var init = function(container) {
     console.error('jQuery is not found');
   }
   return instance;
-}; init
+} init
