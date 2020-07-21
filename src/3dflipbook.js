@@ -3557,7 +3557,7 @@ var Book = function (_THREE$EventDispatche) {
     var _this = _possibleConstructorReturn(this, _THREE$EventDispatche.call(this));
 
     sheets = Math.min(3, sheets);
-    visual.jContainer.append('\n      <style type="text/css">\n        .demo-msg {\n          position: absolute;\n          top: 10px;\n          right: 10px;\n          padding: 10px;\n          background-color: #ffe4e1;\n          border-radius: 3px;\n        }\n      </style>\n      <div class="demo-msg">\n        This is the demo version, only 10 pages are available. Use the <a href="https://goo.gl/bt3Zhh" target="_blank">full version</a>.\n      </div>\n    ');
+    visual.jContainer.append('\n      <style type="text/css">\n        .demo-msg {\n          position: absolute;\n          top: 10px;\n          right: 10px;\n          padding: 10px;\n          background-color: #ffe4e1;\n          border-radius: 3px;\n        }\n      </style>\n      <div class="demo-msg">\n        This is the demo version, only 10 pages are available. Use the <a href="http://3dflipbook.net/download-jq" target="_blank">full version</a>.\n      </div>\n    ');
     _this.visual = visual;
     _this.mouseController = true;
     _this.p = _extends({}, Book.prepareProps(props), {

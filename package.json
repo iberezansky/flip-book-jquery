@@ -1,6 +1,6 @@
 {
   "name": "flip-book",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "description": "3D FlipBook allows to browse images, PDFs or HTMLs as a flipping book. It helps to attract user attention and make more impression on him.",
   "main": "dist/flip-book.js",
   "scripts": {
