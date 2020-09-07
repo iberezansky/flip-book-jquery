@@ -7,7 +7,7 @@
 </p>
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=meZCnPF5IdQ" target="_blank"><img src="https://img.youtube.com/vi/meZCnPF5IdQ/0.jpg" alt="3D FlipBook Demonstration"></a>
+  <a href="https://www.youtube.com/watch?v=fQOuO6w9CR0" target="_blank"><img src="https://img.youtube.com/vi/fQOuO6w9CR0/0.jpg" alt="3D FlipBook Demonstration"></a>
 </div>
 
 <p>
